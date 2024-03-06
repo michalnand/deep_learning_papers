@@ -1,0 +1,194 @@
+\relax 
+\citation{krizhevsky2012imagenet,he2016deep}
+\citation{mnih2013playing}
+\citation{RLgames2023}
+\citation{mnih2015humanlevel}
+\Newlabel{1}{a}
+\Newlabel{2}{b}
+\Newlabel{*}{c}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}}
+\citation{baldassarre2014intrinsic}
+\citation{Ryan00,Morris2022}
+\citation{Parisi2019}
+\citation{baldassarre2014intrinsic,Baldassarre19}
+\citation{Ryan00}
+\citation{barto2005intrinsic,singh2010intrinsically,Barto2013}
+\citation{oudeyer2009intrinsic}
+\citation{Morris2022}
+\citation{Ryan00}
+\citation{Baldassarre19}
+\citation{Parisi2019}
+\citation{Aubret2023}
+\citation{burda2018exploration}
+\citation{burda2018exploration}
+\citation{burda2018exploration}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}The paper contribution}{3}{}\protected@file@percent }
+\citation{Anand2019}
+\citation{Bardes2022}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Self-supervised network distillation (SND) principle. The proposed method consists of two main parts. {\it  Top:} Self-supervised learning of the suitable features for the target model. {\it  Bottom:} Calculation of the intrinsic reward by target model distillation, using the squared Euclidean distance between the models' outputs.\relax }}{4}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:cnd_overview}{{1}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{4}{}\protected@file@percent }
+\newlabel{sec:related-work}{{2}{4}}
+\citation{aubret2019survey}
+\citation{stadie2015incentivizing,bellemare13arcade,Pathak2017}
+\citation{yu2020intrinsic}
+\citation{kingma2013auto}
+\citation{sekar2020planning}
+\citation{kim2018emi}
+\citation{shyam2019model}
+\citation{tang2017exploration}
+\citation{ostrovski2017count,martin2017count,machado2018count}
+\citation{burda2018exploration}
+\citation{badia2020never}
+\citation{shannon1948mathematical}
+\citation{houthooft2016vime}
+\citation{seo2021state}
+\citation{burda2018large,aubret2019survey,yuan2022intrinsically}
+\citation{Timoth2018}
+\citation{Anand2019}
+\citation{Srinivas2020,guo2022byol}
+\citation{Chopra2005}
+\citation{Gutmann2010}
+\citation{Oord2018}
+\citation{Sohn2016}
+\citation{Zbontar2021}
+\citation{Bardes2022}
+\citation{jonschkowski2015learning}
+\citation{grill2020bootstrap}
+\citation{schulman2017proximal}
+\citation{mnih2013playing}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{6}{}\protected@file@percent }
+\newlabel{sec:methods}{{3}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Intrinsic motivation and exploration}{6}{}\protected@file@percent }
+\citation{burda2018exploration}
+\citation{burda2018exploration}
+\newlabel{eq:rintr}{{1}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Intrinsic motivation based on distillation error}{7}{}\protected@file@percent }
+\newlabel{eq:distill_error}{{2}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The basic principle of generating an exploration signal in random network distillation.\relax }}{7}{}\protected@file@percent }
+\newlabel{fig:cnd_rnd}{{2}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The basic principle of generating an exploration signal in the regularized target model, followed by RND.\relax }}{8}{}\protected@file@percent }
+\newlabel{fig:cnd_cnd}{{3}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Training of the SND target model using two consecutive states and the self-supervised learning algorithm.\relax }}{8}{}\protected@file@percent }
+\newlabel{fig:std_dim_idea}{{4}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Self-supervised Network Distillation}{8}{}\protected@file@percent }
+\citation{assran2022maskednetworks}
+\citation{lee2020randomization}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The scheme of the state augmentation pipeline.\relax }}{9}{}\protected@file@percent }
+\newlabel{fig:stdv_augmentations}{{5}{9}}
+\newlabel{eq:sndv1}{{3}{9}}
+\newlabel{eq:sndv2}{{4}{9}}
+\citation{Anand2019}
+\citation{Sohn2016}
+\citation{Anand2019}
+\newlabel{eq:sndstd1}{{5}{10}}
+\newlabel{eq:sndstd2}{{6}{10}}
+\newlabel{eq:sndstd3}{{7}{10}}
+\newlabel{eq:sndstd4}{{8}{10}}
+\newlabel{eq:sndstd5}{{9}{10}}
+\citation{Bardes2022}
+\newlabel{eq:sndsd6}{{10}{11}}
+\newlabel{eq:sndvic1}{{11}{11}}
+\newlabel{eq:sndvic2}{{12}{11}}
+\newlabel{eq:sndvic3}{{13}{11}}
+\newlabel{eq:sndvic4}{{14}{11}}
+\citation{cobbe2020procgen}
+\citation{cobbe2020procgen}
+\citation{pechac2022intrinsic}
+\citation{schulman2017proximal}
+\citation{kingma2015adam}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{12}{}\protected@file@percent }
+\newlabel{sec:exper}{{4}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Training setup}{12}{}\protected@file@percent }
+\citation{burda2018exploration}
+\citation{mnih2013playing}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The PPO agent model architecture.\relax }}{13}{}\protected@file@percent }
+\newlabel{img:ppo_arch}{{6}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The target model architecture.\relax }}{13}{}\protected@file@percent }
+\newlabel{img:cnd_target_arch}{{7}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The learning model architecture.\relax }}{13}{}\protected@file@percent }
+\newlabel{img:cnd_learned_arch}{{8}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Environment hyperparameters\relax }}{14}{}\protected@file@percent }
+\newlabel{tab:env_hyperparameters}{{1}{14}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Agent's hyperparameters\relax }}{14}{}\protected@file@percent }
+\newlabel{tab:agent_hyperparameters}{{2}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}State preprocessing}{14}{}\protected@file@percent }
+\newlabel{sec:exp2}{{4.2}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Agent's performance based on various learned model architectures, evaluated in terms of the overall score, external reward obtained and the number of rooms explored.\relax }}{15}{}\protected@file@percent }
+\newlabel{img:result_cnd_learned_arch}{{9}{15}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Average cumulative reward (with standard deviation) per episode for all 3 preprocessing methods and maximal reward achieved by the agents.\relax }}{15}{}\protected@file@percent }
+\newlabel{tab:res1}{{3}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Results}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Agent performance for different state augmentations, evaluated in terms of the overall score, external reward obtained and the number of rooms explored.\relax }}{16}{}\protected@file@percent }
+\newlabel{img:result_cnd_aug}{{10}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Agent's performance for different intrinsic reward scaling methods, evaluated in terms of the overall score, external reward obtained and the number of rooms explored.\relax }}{17}{}\protected@file@percent }
+\newlabel{img:result_cnd_scaling}{{11}{17}}
+\citation{tSNE2008}
+\citation{burda2018exploration}
+\newlabel{fig:res2a}{{12a}{18}}
+\newlabel{sub@fig:res2a}{{a}{18}}
+\newlabel{fig:res2b}{{12b}{18}}
+\newlabel{sub@fig:res2b}{{b}{18}}
+\newlabel{fig:res2c}{{12c}{18}}
+\newlabel{sub@fig:res2c}{{c}{18}}
+\newlabel{fig:res2d}{{12d}{18}}
+\newlabel{sub@fig:res2d}{{d}{18}}
+\newlabel{fig:res2f}{{12e}{18}}
+\newlabel{sub@fig:res2f}{{e}{18}}
+\newlabel{fig:res2g}{{12f}{18}}
+\newlabel{sub@fig:res2g}{{f}{18}}
+\newlabel{fig:res2h}{{12g}{18}}
+\newlabel{sub@fig:res2h}{{g}{18}}
+\newlabel{fig:res2i}{{12h}{18}}
+\newlabel{sub@fig:res2i}{{h}{18}}
+\newlabel{fig:res2j}{{12i}{18}}
+\newlabel{sub@fig:res2j}{{i}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The cumulative external reward per episode (with the standard deviation) received by the agent from the tested environment. We omitted the graph for the Pitfall environment, where no algorithm was successful and all achieved zero reward. The horizontal axis shows the number of steps in millions, the vertical axis refers the external reward.\relax }}{18}{}\protected@file@percent }
+\newlabel{fig:result}{{12}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Analysis of results}{18}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Average cumulative external reward per episode for tested models. The best model for each environment is shown in bold face.\relax }}{19}{}\protected@file@percent }
+\newlabel{tab:res2}{{4}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Average maximal score reached by tested models on Atari environments. The best model for each environment is shown in bold face.\relax }}{19}{}\protected@file@percent }
+\newlabel{tab:res3}{{5}{19}}
+\newlabel{fig:target_features_random}{{13a}{20}}
+\newlabel{sub@fig:target_features_random}{{a}{20}}
+\newlabel{fig:trained_features_random}{{13b}{20}}
+\newlabel{sub@fig:trained_features_random}{{b}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The t-SNE projected feature representations of the target model in Montezuma's Revenge task. The colors correspond to different rooms.\relax }}{20}{}\protected@file@percent }
+\newlabel{fig:cnd_feature_space}{{13}{20}}
+\newlabel{fig:analysis2a}{{14a}{21}}
+\newlabel{sub@fig:analysis2a}{{a}{21}}
+\newlabel{fig:analysis2b}{{14b}{21}}
+\newlabel{sub@fig:analysis2b}{{b}{21}}
+\newlabel{fig:analysis2c}{{14c}{21}}
+\newlabel{sub@fig:analysis2c}{{c}{21}}
+\newlabel{fig:analysis2d}{{14d}{21}}
+\newlabel{sub@fig:analysis2d}{{d}{21}}
+\newlabel{fig:analysis2e}{{14e}{21}}
+\newlabel{sub@fig:analysis2e}{{e}{21}}
+\newlabel{fig:analysis2f}{{14f}{21}}
+\newlabel{sub@fig:analysis2f}{{f}{21}}
+\newlabel{fig:analysis2g}{{14g}{21}}
+\newlabel{sub@fig:analysis2g}{{g}{21}}
+\newlabel{fig:analysis2h}{{14h}{21}}
+\newlabel{sub@fig:analysis2h}{{h}{21}}
+\newlabel{fig:analysis2i}{{14i}{21}}
+\newlabel{sub@fig:analysis2i}{{i}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Descendingly ordered eigenvalues of the linear envelope obtained using the PCA method, which show the stretching of the feature space in individual dimensions. The horizontal axis shows the indices of eigenvalues, the vertical axis denotes the magnitude of eigenvalue in logarithmic scale. Based on these data, we tried to find out if there is a connection between the shape of the feature space and the performance of the given model. The graph for Pitfall was omitted, since it looked very similar to Private Eye. \relax }}{21}{}\protected@file@percent }
+\newlabel{fig:cnd_analysis}{{14}{21}}
+\newlabel{fig:nov_rnd_result_summary}{{15a}{22}}
+\newlabel{sub@fig:nov_rnd_result_summary}{{a}{22}}
+\newlabel{fig:nov_nce_result_summary}{{15b}{22}}
+\newlabel{sub@fig:nov_nce_result_summary}{{b}{22}}
+\newlabel{fig:nov_mse_result_summary}{{15c}{22}}
+\newlabel{sub@fig:nov_mse_result_summary}{{c}{22}}
+\newlabel{fig:nov_vicreg_result_summary}{{15d}{22}}
+\newlabel{sub@fig:nov_vicreg_result_summary}{{d}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Novelty detection for different regularisation losses as react on different future window. The states were collected on Montezuma's Revenge with our best agent, red dots correspond to state examples above.\relax }}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{23}{}\protected@file@percent }
+\newlabel{sec:discussion}{{5}{23}}
+\bibstyle{apalike}
+\bibdata{references}
+\gdef \@abspage@last{25}
